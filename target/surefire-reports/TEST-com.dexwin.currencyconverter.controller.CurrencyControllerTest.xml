@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.dexwin.currencyconverter.controller.CurrencyControllerTest" time="3.834" tests="5" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.dexwin.currencyconverter.controller.CurrencyControllerTest" time="4.384" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/media/yesulikplimits/Lab1/Dexwin_Currency_converter/target/test-classes:/media/yesulikplimits/Lab1/Dexwin_Currency_converter/target/classes:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter/2.6.6/spring-boot-starter-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot/2.6.6/spring-boot-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-context/5.3.18/spring-context-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.6.6/spring-boot-autoconfigure-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.6.6/spring-boot-starter-logging-2.6.6.jar:/home/yesulikplimits/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/yesulikplimits/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/yesulikplimits/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/home/yesulikplimits/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/home/yesulikplimits/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/home/yesulikplimits/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-core/5.3.18/spring-core-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-jcl/5.3.18/spring-jcl-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.6.6/spring-boot-starter-web-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.6.6/spring-boot-starter-json-2.6.6.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.2/jackson-datatype-jdk8-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.2/jackson-module-parameter-names-2.13.2.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.6.6/spring-boot-starter-tomcat-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.60/tomcat-embed-core-9.0.60.jar:/home/yesulikplimits/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.60/tomcat-embed-el-9.0.60.jar:/home/yesulikplimits/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.60/tomcat-embed-websocket-9.0.60.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-web/5.3.18/spring-web-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-webmvc/5.3.18/spring-webmvc-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-aop/5.3.18/spring-aop-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-expression/5.3.18/spring-expression-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.6.6/spring-boot-starter-test-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-test/2.6.6/spring-boot-test-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.6.6/spring-boot-test-autoconfigure-2.6.6.jar:/home/yesulikplimits/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/home/yesulikplimits/.m2/repository/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar:/home/yesulikplimits/.m2/repository/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8.jar:/home/yesulikplimits/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/yesulikplimits/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/yesulikplimits/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/yesulikplimits/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/yesulikplimits/.m2/repository/org/assertj/assertj-core/3.21.0/assertj-core-3.21.0.jar:/home/yesulikplimits/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/yesulikplimits/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/yesulikplimits/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/yesulikplimits/.m2/repository/org/mockito/mockito-core/4.0.0/mockito-core-4.0.0.jar:/home/yesulikplimits/.m2/repository/net/bytebuddy/byte-buddy/1.11.22/byte-buddy-1.11.22.jar:/home/yesulikplimits/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.22/byte-buddy-agent-1.11.22.jar:/home/yesulikplimits/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/yesulikplimits/.m2/repository/org/mockito/mockito-junit-jupiter/4.0.0/mockito-junit-jupiter-4.0.0.jar:/home/yesulikplimits/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/home/yesulikplimits/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/yesulikplimits/.m2/repository/org/xmlunit/xmlunit-core/2.8.4/xmlunit-core-2.8.4.jar:/home/yesulikplimits/.m2/repository/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.jar:/home/yesulikplimits/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-webflux/5.3.18/spring-webflux-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-beans/5.3.18/spring-beans-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/apache/maven/archiva/archiva-security/1.0.2/archiva-security-1.0.2.jar:/home/yesulikplimits/.m2/repository/org/apache/maven/archiva/archiva-configuration/1.0.2/archiva-configuration-1.0.2.jar:/home/yesulikplimits/.m2/repository/org/apache/maven/archiva/archiva-common/1.0.2/archiva-common-1.0.2.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/plexus-digest/1.1/plexus-digest-1.1.jar:/home/yesulikplimits/.m2/repository/org/apache/maven/archiva/archiva-policies/1.0.2/archiva-policies-1.0.2.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/cache/plexus-cache-ehcache/1.0-alpha-2/plexus-cache-ehcache-1.0-alpha-2.jar:/home/yesulikplimits/.m2/repository/net/sf/ehcache/ehcache/2.10.9.2/ehcache-2.10.9.2.jar:/home/yesulikplimits/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/plexus-component-api/1.0-alpha-22/plexus-component-api-1.0-alpha-22.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/plexus-classworlds/1.2-alpha-7/plexus-classworlds-1.2-alpha-7.jar:/home/yesulikplimits/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/yesulikplimits/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-22/plexus-container-default-1.0-alpha-22.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/plexus-utils/1.4/plexus-utils-1.4.jar:/home/yesulikplimits/.m2/repository/commons-lang/commons-lang/2.2/commons-lang-2.2.jar:/home/yesulikplimits/.m2/repository/commons-io/commons-io/1.2/commons-io-1.2.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/registry/plexus-registry-api/1.0-alpha-2/plexus-registry-api-1.0-alpha-2.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/registry/plexus-registry-commons/1.0-alpha-2/plexus-registry-commons-1.0-alpha-2.jar:/home/yesulikplimits/.m2/repository/commons-configuration/commons-configuration/1.3/commons-configuration-1.3.jar:/home/yesulikplimits/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar:/home/yesulikplimits/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/yesulikplimits/.m2/repository/commons-jxpath/commons-jxpath/1.2/commons-jxpath-1.2.jar:/home/yesulikplimits/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/yesulikplimits/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/plexus-expression-evaluator/1.0-rc1/plexus-expression-evaluator-1.0-rc1.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/redback/redback-system/1.0-alpha-4/redback-system-1.0-alpha-4.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/redback/redback-rbac-model/1.0-alpha-4/redback-rbac-model-1.0-alpha-4.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/redback/redback-rbac-role-manager/1.0-alpha-4/redback-rbac-role-manager-1.0-alpha-4.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-test/5.3.18/spring-test-5.3.18.jar:"/>
+    <property name="java.class.path" value="/media/yesulikplimits/Lab1/Dexwin_Java_A/target/test-classes:/media/yesulikplimits/Lab1/Dexwin_Java_A/target/classes:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter/2.6.6/spring-boot-starter-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot/2.6.6/spring-boot-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-context/5.3.18/spring-context-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.6.6/spring-boot-autoconfigure-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.6.6/spring-boot-starter-logging-2.6.6.jar:/home/yesulikplimits/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/yesulikplimits/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/yesulikplimits/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/home/yesulikplimits/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/home/yesulikplimits/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/home/yesulikplimits/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-core/5.3.18/spring-core-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-jcl/5.3.18/spring-jcl-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.6.6/spring-boot-starter-web-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.6.6/spring-boot-starter-json-2.6.6.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.2/jackson-datatype-jdk8-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.2/jackson-module-parameter-names-2.13.2.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.6.6/spring-boot-starter-tomcat-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.60/tomcat-embed-core-9.0.60.jar:/home/yesulikplimits/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.60/tomcat-embed-el-9.0.60.jar:/home/yesulikplimits/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.60/tomcat-embed-websocket-9.0.60.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-web/5.3.18/spring-web-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-webmvc/5.3.18/spring-webmvc-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-aop/5.3.18/spring-aop-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-expression/5.3.18/spring-expression-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.6.6/spring-boot-starter-test-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-test/2.6.6/spring-boot-test-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.6.6/spring-boot-test-autoconfigure-2.6.6.jar:/home/yesulikplimits/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/home/yesulikplimits/.m2/repository/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar:/home/yesulikplimits/.m2/repository/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8.jar:/home/yesulikplimits/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/yesulikplimits/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/yesulikplimits/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/yesulikplimits/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/yesulikplimits/.m2/repository/org/assertj/assertj-core/3.21.0/assertj-core-3.21.0.jar:/home/yesulikplimits/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/yesulikplimits/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/yesulikplimits/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/yesulikplimits/.m2/repository/org/mockito/mockito-core/4.0.0/mockito-core-4.0.0.jar:/home/yesulikplimits/.m2/repository/net/bytebuddy/byte-buddy/1.11.22/byte-buddy-1.11.22.jar:/home/yesulikplimits/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.22/byte-buddy-agent-1.11.22.jar:/home/yesulikplimits/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/yesulikplimits/.m2/repository/org/mockito/mockito-junit-jupiter/4.0.0/mockito-junit-jupiter-4.0.0.jar:/home/yesulikplimits/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/home/yesulikplimits/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-test/5.3.18/spring-test-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/xmlunit/xmlunit-core/2.8.4/xmlunit-core-2.8.4.jar:/home/yesulikplimits/.m2/repository/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.jar:/home/yesulikplimits/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-webflux/5.3.18/spring-webflux-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-beans/5.3.18/spring-beans-5.3.18.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -12,9 +12,9 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-21.0.4-oracle-x64/lib"/>
-    <property name="sun.java.command" value="/media/yesulikplimits/Lab1/Dexwin_Currency_converter/target/surefire/surefirebooter281264603617158078.jar /media/yesulikplimits/Lab1/Dexwin_Currency_converter/target/surefire 2025-03-02T17-56-42_728-jvmRun1 surefire5770542333568594388tmp surefire_07408201545048021712tmp"/>
+    <property name="sun.java.command" value="/media/yesulikplimits/Lab1/Dexwin_Java_A/target/surefire/surefirebooter18030048235780313622.jar /media/yesulikplimits/Lab1/Dexwin_Java_A/target/surefire 2025-03-01T19-10-15_949-jvmRun1 surefire17040498812457009057tmp surefire_04189495550784079850tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/media/yesulikplimits/Lab1/Dexwin_Currency_converter/target/test-classes:/media/yesulikplimits/Lab1/Dexwin_Currency_converter/target/classes:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter/2.6.6/spring-boot-starter-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot/2.6.6/spring-boot-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-context/5.3.18/spring-context-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.6.6/spring-boot-autoconfigure-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.6.6/spring-boot-starter-logging-2.6.6.jar:/home/yesulikplimits/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/yesulikplimits/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/yesulikplimits/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/home/yesulikplimits/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/home/yesulikplimits/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/home/yesulikplimits/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-core/5.3.18/spring-core-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-jcl/5.3.18/spring-jcl-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.6.6/spring-boot-starter-web-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.6.6/spring-boot-starter-json-2.6.6.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.2/jackson-datatype-jdk8-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.2/jackson-module-parameter-names-2.13.2.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.6.6/spring-boot-starter-tomcat-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.60/tomcat-embed-core-9.0.60.jar:/home/yesulikplimits/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.60/tomcat-embed-el-9.0.60.jar:/home/yesulikplimits/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.60/tomcat-embed-websocket-9.0.60.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-web/5.3.18/spring-web-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-webmvc/5.3.18/spring-webmvc-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-aop/5.3.18/spring-aop-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-expression/5.3.18/spring-expression-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.6.6/spring-boot-starter-test-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-test/2.6.6/spring-boot-test-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.6.6/spring-boot-test-autoconfigure-2.6.6.jar:/home/yesulikplimits/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/home/yesulikplimits/.m2/repository/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar:/home/yesulikplimits/.m2/repository/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8.jar:/home/yesulikplimits/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/yesulikplimits/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/yesulikplimits/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/yesulikplimits/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/yesulikplimits/.m2/repository/org/assertj/assertj-core/3.21.0/assertj-core-3.21.0.jar:/home/yesulikplimits/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/yesulikplimits/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/yesulikplimits/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/yesulikplimits/.m2/repository/org/mockito/mockito-core/4.0.0/mockito-core-4.0.0.jar:/home/yesulikplimits/.m2/repository/net/bytebuddy/byte-buddy/1.11.22/byte-buddy-1.11.22.jar:/home/yesulikplimits/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.22/byte-buddy-agent-1.11.22.jar:/home/yesulikplimits/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/yesulikplimits/.m2/repository/org/mockito/mockito-junit-jupiter/4.0.0/mockito-junit-jupiter-4.0.0.jar:/home/yesulikplimits/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/home/yesulikplimits/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/yesulikplimits/.m2/repository/org/xmlunit/xmlunit-core/2.8.4/xmlunit-core-2.8.4.jar:/home/yesulikplimits/.m2/repository/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.jar:/home/yesulikplimits/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-webflux/5.3.18/spring-webflux-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-beans/5.3.18/spring-beans-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/apache/maven/archiva/archiva-security/1.0.2/archiva-security-1.0.2.jar:/home/yesulikplimits/.m2/repository/org/apache/maven/archiva/archiva-configuration/1.0.2/archiva-configuration-1.0.2.jar:/home/yesulikplimits/.m2/repository/org/apache/maven/archiva/archiva-common/1.0.2/archiva-common-1.0.2.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/plexus-digest/1.1/plexus-digest-1.1.jar:/home/yesulikplimits/.m2/repository/org/apache/maven/archiva/archiva-policies/1.0.2/archiva-policies-1.0.2.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/cache/plexus-cache-ehcache/1.0-alpha-2/plexus-cache-ehcache-1.0-alpha-2.jar:/home/yesulikplimits/.m2/repository/net/sf/ehcache/ehcache/2.10.9.2/ehcache-2.10.9.2.jar:/home/yesulikplimits/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/plexus-component-api/1.0-alpha-22/plexus-component-api-1.0-alpha-22.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/plexus-classworlds/1.2-alpha-7/plexus-classworlds-1.2-alpha-7.jar:/home/yesulikplimits/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/yesulikplimits/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-22/plexus-container-default-1.0-alpha-22.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/plexus-utils/1.4/plexus-utils-1.4.jar:/home/yesulikplimits/.m2/repository/commons-lang/commons-lang/2.2/commons-lang-2.2.jar:/home/yesulikplimits/.m2/repository/commons-io/commons-io/1.2/commons-io-1.2.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/registry/plexus-registry-api/1.0-alpha-2/plexus-registry-api-1.0-alpha-2.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/registry/plexus-registry-commons/1.0-alpha-2/plexus-registry-commons-1.0-alpha-2.jar:/home/yesulikplimits/.m2/repository/commons-configuration/commons-configuration/1.3/commons-configuration-1.3.jar:/home/yesulikplimits/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar:/home/yesulikplimits/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/yesulikplimits/.m2/repository/commons-jxpath/commons-jxpath/1.2/commons-jxpath-1.2.jar:/home/yesulikplimits/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/yesulikplimits/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/plexus-expression-evaluator/1.0-rc1/plexus-expression-evaluator-1.0-rc1.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/redback/redback-system/1.0-alpha-4/redback-system-1.0-alpha-4.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/redback/redback-rbac-model/1.0-alpha-4/redback-rbac-model-1.0-alpha-4.jar:/home/yesulikplimits/.m2/repository/org/codehaus/plexus/redback/redback-rbac-role-manager/1.0-alpha-4/redback-rbac-role-manager-1.0-alpha-4.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-test/5.3.18/spring-test-5.3.18.jar:"/>
+    <property name="surefire.test.class.path" value="/media/yesulikplimits/Lab1/Dexwin_Java_A/target/test-classes:/media/yesulikplimits/Lab1/Dexwin_Java_A/target/classes:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter/2.6.6/spring-boot-starter-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot/2.6.6/spring-boot-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-context/5.3.18/spring-context-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.6.6/spring-boot-autoconfigure-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.6.6/spring-boot-starter-logging-2.6.6.jar:/home/yesulikplimits/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/yesulikplimits/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/yesulikplimits/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/home/yesulikplimits/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/home/yesulikplimits/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/home/yesulikplimits/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-core/5.3.18/spring-core-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-jcl/5.3.18/spring-jcl-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.6.6/spring-boot-starter-web-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.6.6/spring-boot-starter-json-2.6.6.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.2/jackson-datatype-jdk8-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/home/yesulikplimits/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.2/jackson-module-parameter-names-2.13.2.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.6.6/spring-boot-starter-tomcat-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.60/tomcat-embed-core-9.0.60.jar:/home/yesulikplimits/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.60/tomcat-embed-el-9.0.60.jar:/home/yesulikplimits/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.60/tomcat-embed-websocket-9.0.60.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-web/5.3.18/spring-web-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-webmvc/5.3.18/spring-webmvc-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-aop/5.3.18/spring-aop-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-expression/5.3.18/spring-expression-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.6.6/spring-boot-starter-test-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-test/2.6.6/spring-boot-test-2.6.6.jar:/home/yesulikplimits/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.6.6/spring-boot-test-autoconfigure-2.6.6.jar:/home/yesulikplimits/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/home/yesulikplimits/.m2/repository/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar:/home/yesulikplimits/.m2/repository/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8.jar:/home/yesulikplimits/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/yesulikplimits/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/yesulikplimits/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/yesulikplimits/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/yesulikplimits/.m2/repository/org/assertj/assertj-core/3.21.0/assertj-core-3.21.0.jar:/home/yesulikplimits/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/yesulikplimits/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/yesulikplimits/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/yesulikplimits/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/yesulikplimits/.m2/repository/org/mockito/mockito-core/4.0.0/mockito-core-4.0.0.jar:/home/yesulikplimits/.m2/repository/net/bytebuddy/byte-buddy/1.11.22/byte-buddy-1.11.22.jar:/home/yesulikplimits/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.22/byte-buddy-agent-1.11.22.jar:/home/yesulikplimits/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/yesulikplimits/.m2/repository/org/mockito/mockito-junit-jupiter/4.0.0/mockito-junit-jupiter-4.0.0.jar:/home/yesulikplimits/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/home/yesulikplimits/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-test/5.3.18/spring-test-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/xmlunit/xmlunit-core/2.8.4/xmlunit-core-2.8.4.jar:/home/yesulikplimits/.m2/repository/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.jar:/home/yesulikplimits/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-webflux/5.3.18/spring-webflux-5.3.18.jar:/home/yesulikplimits/.m2/repository/org/springframework/spring-beans/5.3.18/spring-beans-5.3.18.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/yesulikplimits"/>
     <property name="user.language" value="en"/>
@@ -22,12 +22,12 @@
     <property name="java.version.date" value="2024-07-16"/>
     <property name="java.home" value="/usr/lib/jvm/jdk-21.0.4-oracle-x64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/media/yesulikplimits/Lab1/Dexwin_Currency_converter"/>
+    <property name="basedir" value="/media/yesulikplimits/Lab1/Dexwin_Java_A"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/media/yesulikplimits/Lab1/Dexwin_Currency_converter/target/surefire/surefirebooter281264603617158078.jar"/>
+    <property name="surefire.real.class.path" value="/media/yesulikplimits/Lab1/Dexwin_Java_A/target/surefire/surefirebooter18030048235780313622.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
     <property name="user.name" value="yesulikplimits"/>
@@ -42,7 +42,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="21.0.4"/>
-    <property name="user.dir" value="/media/yesulikplimits/Lab1/Dexwin_Currency_converter"/>
+    <property name="user.dir" value="/media/yesulikplimits/Lab1/Dexwin_Java_A"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -54,246 +54,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="should_convert_USD_to_EUR_with_rate_less_than_1" classname="com.dexwin.currencyconverter.controller.CurrencyControllerTest" time="0.149">
-    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
-	at com.dexwin.currencyconverter.controller.CurrencyControllerTest.should_convert_USD_to_EUR_with_rate_less_than_1(CurrencyControllerTest.java:48)
-]]></failure>
-    <system-out><![CDATA[17:56:43.878 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-17:56:43.890 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-17:56:43.944 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.dexwin.currencyconverter.controller.CurrencyControllerTest] from class [org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper]
-17:56:43.973 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.dexwin.currencyconverter.controller.CurrencyControllerTest], using SpringBootContextLoader
-17:56:43.979 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.dexwin.currencyconverter.controller.CurrencyControllerTest]: class path resource [com/dexwin/currencyconverter/controller/CurrencyControllerTest-context.xml] does not exist
-17:56:43.981 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.dexwin.currencyconverter.controller.CurrencyControllerTest]: class path resource [com/dexwin/currencyconverter/controller/CurrencyControllerTestContext.groovy] does not exist
-17:56:43.981 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.dexwin.currencyconverter.controller.CurrencyControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-17:56:43.982 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.dexwin.currencyconverter.controller.CurrencyControllerTest]: CurrencyControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:56:44.084 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.dexwin.currencyconverter.controller.CurrencyControllerTest]
-17:56:44.181 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/media/yesulikplimits/Lab1/Dexwin_Currency_converter/target/classes/com/dexwin/currencyconverter/Application.class]
-17:56:44.186 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.dexwin.currencyconverter.Application for test class com.dexwin.currencyconverter.controller.CurrencyControllerTest
-17:56:44.195 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - @TestExecutionListeners is not present for class [com.dexwin.currencyconverter.controller.CurrencyControllerTest]: using defaults.
-17:56:44.196 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-17:56:44.213 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
-17:56:44.214 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-17:56:44.215 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4007f65e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a245833, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@673fdbce, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5965d37, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7a5ceedd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4201c465, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b799640, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6cb107fd, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@710636b0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3de8f619, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2ab4bc72, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4e5ed836, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@eadd4fb]
-17:56:44.220 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@65f8f5ae testClass = CurrencyControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@431cd9b2 testClass = CurrencyControllerTest, locations = '{}', classes = '{class com.dexwin.currencyconverter.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@38467116 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@524d6d96, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4ef37659, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@cbea1dc4, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@747edf66, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@74455848, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@f96b7dcc, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@d1f29a6c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@fba92d3, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::                (v2.6.6)
-
-2025-03-02 17:56:44.761  INFO 4191988 --- [           main] c.d.c.controller.CurrencyControllerTest  : Starting CurrencyControllerTest using Java 21.0.4 on parrot with PID 4191988 (started by yesulikplimits in /media/yesulikplimits/Lab1/Dexwin_Currency_converter)
-2025-03-02 17:56:44.762  INFO 4191988 --- [           main] c.d.c.controller.CurrencyControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2025-03-02 17:56:47.173  INFO 4191988 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-03-02 17:56:47.173  INFO 4191988 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-03-02 17:56:47.175  INFO 4191988 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2025-03-02 17:56:47.334  INFO 4191988 --- [           main] c.d.c.controller.CurrencyControllerTest  : Started CurrencyControllerTest in 3.039 seconds (JVM running for 4.275)
-
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /currencies/convert
-       Parameters = {source=[USD], target=[EUR], amount=[1]}
-          Headers = []
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-]]></system-out>
-  </testcase>
-  <testcase name="shouldReturnBadRequestForNegativeAmount" classname="com.dexwin.currencyconverter.controller.CurrencyControllerTest" time="0.013">
-    <failure message="Status expected:&lt;400&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<400> but was:<404>
-	at com.dexwin.currencyconverter.controller.CurrencyControllerTest.shouldReturnBadRequestForNegativeAmount(CurrencyControllerTest.java:59)
-]]></failure>
-    <system-out><![CDATA[
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /currencies/convert
-       Parameters = {source=[EUR], target=[USD], amount=[-5]}
-          Headers = []
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-]]></system-out>
-  </testcase>
-  <testcase name="shouldReturnBadRequestForNonEURSourceCurrency" classname="com.dexwin.currencyconverter.controller.CurrencyControllerTest" time="0.013">
-    <failure message="Status expected:&lt;400&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<400> but was:<404>
-	at com.dexwin.currencyconverter.controller.CurrencyControllerTest.shouldReturnBadRequestForNonEURSourceCurrency(CurrencyControllerTest.java:72)
-]]></failure>
-    <system-out><![CDATA[
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /currencies/convert
-       Parameters = {source=[GBP], target=[USD], amount=[1]}
-          Headers = []
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-]]></system-out>
-  </testcase>
-  <testcase name="shouldReturnBadRequestForInvalidCurrency" classname="com.dexwin.currencyconverter.controller.CurrencyControllerTest" time="0.01">
-    <failure message="Status expected:&lt;400&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<400> but was:<404>
-	at com.dexwin.currencyconverter.controller.CurrencyControllerTest.shouldReturnBadRequestForInvalidCurrency(CurrencyControllerTest.java:85)
-]]></failure>
-    <system-out><![CDATA[
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /currencies/convert
-       Parameters = {source=[EUR], target=[INVALID], amount=[1]}
-          Headers = []
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-]]></system-out>
-  </testcase>
-  <testcase name="should_convert_EUR_to_USD_with_rate_greater_than_1" classname="com.dexwin.currencyconverter.controller.CurrencyControllerTest" time="0.038">
-    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
-	at com.dexwin.currencyconverter.controller.CurrencyControllerTest.should_convert_EUR_to_USD_with_rate_greater_than_1(CurrencyControllerTest.java:35)
-]]></failure>
-    <system-out><![CDATA[
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /currencies/convert
-       Parameters = {source=[EUR], target=[USD], amount=[1]}
-          Headers = []
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-]]></system-out>
-  </testcase>
+  <testcase name="should_convert_USD_to_EUR_with_rate_less_than_1" classname="com.dexwin.currencyconverter.controller.CurrencyControllerTest" time="0.238"/>
+  <testcase name="shouldReturnBadRequestForNegativeAmount" classname="com.dexwin.currencyconverter.controller.CurrencyControllerTest" time="0.02"/>
+  <testcase name="shouldReturnBadRequestForNonEURSourceCurrency" classname="com.dexwin.currencyconverter.controller.CurrencyControllerTest" time="0.011"/>
+  <testcase name="shouldReturnBadRequestForInvalidCurrency" classname="com.dexwin.currencyconverter.controller.CurrencyControllerTest" time="0.01"/>
+  <testcase name="should_convert_EUR_to_USD_with_rate_greater_than_1" classname="com.dexwin.currencyconverter.controller.CurrencyControllerTest" time="0.012"/>
 </testsuite>
