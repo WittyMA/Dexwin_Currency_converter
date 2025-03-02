@@ -13,6 +13,7 @@ import org.springframework.web.client.RestTemplate;
  * TODO: Implementation of this class has to be backed by
  * https://api.exchangerate.host/latest?base=EUR&symbols=AUD,CAD,CHF,CNY,GBP,JPY,USD
  */
+
 @Service
 public class CurrencyExchangeRateService implements CurrencyService {
 

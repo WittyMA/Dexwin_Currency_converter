@@ -18,6 +18,7 @@
         <java.version>11</java.version>
         <start-class>com.dexwin.currencyconverter.Application</start-class>
         <exec.mainClass>com.dexwin.currencyconverter.Application</exec.mainClass>
+              <liquibase-version>4.3.5</liquibase-version>
     </properties>
 
     <dependencies>
@@ -48,6 +49,25 @@
             <artifactId>spring-webflux</artifactId>
             <version>5.3.18</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.maven.archiva</groupId>
+            <artifactId>archiva-security</artifactId>
+            <version>1.0.2</version>
+            <scope>test</scope>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>5.3.18</version>
+            <scope>test</scope>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+    <groupId>org.codehaus.plexus.redback</groupId>
+    <artifactId>redback-authentication-keys</artifactId>
+    <version>1.0-alpha-5</version>
+</dependency>
     </dependencies>
 
     <build>
@@ -56,7 +76,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-
+ 
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -74,4 +94,14 @@
             </plugin>
         </plugins>
     </build>
+    <dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.codehaus.plexus.redback</groupId>
+            <artifactId>redback-authentication-keys</artifactId>
+            <version>1.0-alpha-5</version> <!-- Use a valid version -->
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+
 </project>

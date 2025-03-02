@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: com.dexwin.currencyconverter.controller.CurrencyControllerTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.384 s - in com.dexwin.currencyconverter.controller.CurrencyControllerTest
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 3.834 s <<< FAILURE! - in com.dexwin.currencyconverter.controller.CurrencyControllerTest
+should_convert_USD_to_EUR_with_rate_less_than_1  Time elapsed: 0.149 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.dexwin.currencyconverter.controller.CurrencyControllerTest.should_convert_USD_to_EUR_with_rate_less_than_1(CurrencyControllerTest.java:48)
+
+shouldReturnBadRequestForNegativeAmount  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<400> but was:<404>
+	at com.dexwin.currencyconverter.controller.CurrencyControllerTest.shouldReturnBadRequestForNegativeAmount(CurrencyControllerTest.java:59)
+
+shouldReturnBadRequestForNonEURSourceCurrency  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<400> but was:<404>
+	at com.dexwin.currencyconverter.controller.CurrencyControllerTest.shouldReturnBadRequestForNonEURSourceCurrency(CurrencyControllerTest.java:72)
+
+shouldReturnBadRequestForInvalidCurrency  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<400> but was:<404>
+	at com.dexwin.currencyconverter.controller.CurrencyControllerTest.shouldReturnBadRequestForInvalidCurrency(CurrencyControllerTest.java:85)
+
+should_convert_EUR_to_USD_with_rate_greater_than_1  Time elapsed: 0.038 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.dexwin.currencyconverter.controller.CurrencyControllerTest.should_convert_EUR_to_USD_with_rate_greater_than_1(CurrencyControllerTest.java:35)
+

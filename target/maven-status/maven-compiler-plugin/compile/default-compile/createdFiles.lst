@@ -1,7 +1,7 @@
-com/dexwin/currencyconverter/controller/GlobalExceptionHandler.class
 com/dexwin/currencyconverter/service/ExchangeRateResponse.class
 com/dexwin/currencyconverter/controller/CurrencyController.class
 com/dexwin/currencyconverter/service/CurrencyExchangeRateService.class
+GlobalExceptionHandler.class
 com/dexwin/currencyconverter/config/RestTemplateConfig.class
 com/dexwin/currencyconverter/Application.class
 com/dexwin/currencyconverter/service/CurrencyService.class
